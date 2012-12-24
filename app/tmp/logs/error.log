@@ -1,0 +1,1778 @@
+2012-11-27 22:08:07 Error: [MissingActionException] Action LoginController::index() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-27 22:08:37 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/Login/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-27 22:10:57 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/Login/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-27 22:11:18 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/Login/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-27 22:11:56 Error: [MissingLayoutException] Layout file "/Users/jrareas/Developer/php/financial.system/app/View/Layouts/login.ctp.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(514): View->_getLayoutFileName('login.ctp')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(484): View->renderLayout('', 'login.ctp')
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-11-28 00:53:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 00:53:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 00:53:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 01:21:54 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/View/Layouts/login.ctp, line 95]
+2012-11-28 01:21:54 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 95, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 95, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 01:22:06 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/View/Layouts/login.ctp, line 71]
+2012-11-28 01:22:06 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 71, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 71, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 02:08:32 Error: Fatal Error (1): Call to undefined method Security::has() in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 6]
+2012-11-28 02:08:32 Error: [FatalErrorException] Call to undefined method Security::has()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 6, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 6, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 02:12:19 Error: [BadRequestException] The request has been black-holed
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Component/SecurityComponent.php(223): SecurityComponent->blackHole(Object(LoginController), 'auth')
+#1 [internal function]: SecurityComponent->startup(Object(LoginController))
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Utility/ObjectCollection.php(130): call_user_func_array(Array, Array)
+#3 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#5 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#7 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#8 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-28 14:48:48 Error: [BadRequestException] The request has been black-holed
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Component/SecurityComponent.php(223): SecurityComponent->blackHole(Object(LoginController), 'auth')
+#1 [internal function]: SecurityComponent->startup(Object(LoginController))
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Utility/ObjectCollection.php(130): call_user_func_array(Array, Array)
+#3 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#5 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#7 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#8 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-28 15:04:51 Error: [MissingActionException] Action RemoteController::index() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-28 15:06:20 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/Remote/process_request.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-28 15:30:53 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/Remote/process_request.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-28 15:49:31 Error: [MissingControllerException] Controller class Financial.systemController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 17:55:36 Error: Fatal Error (1): Call to undefined function login() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 13]
+2012-11-28 17:55:36 Error: [FatalErrorException] Call to undefined function login()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 13, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 13, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 17:55:54 Error: Fatal Error (1): Class 'LoginController' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 18]
+2012-11-28 17:55:54 Error: [FatalErrorException] Class 'LoginController' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'LoginCon...', '/Users/jrareas/...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'LoginCon...', '/Users/jrareas/...', 18, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'LoginCon...', '/Users/jrareas/...', 18, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 17:56:15 Error: Fatal Error (1): Class 'LoginController' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 18]
+2012-11-28 17:56:15 Error: [FatalErrorException] Class 'LoginController' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'LoginCon...', '/Users/jrareas/...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'LoginCon...', '/Users/jrareas/...', 18, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'LoginCon...', '/Users/jrareas/...', 18, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 17:59:05 Error: Fatal Error (1): Class 'LoginController' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 18]
+2012-11-28 17:59:05 Error: [FatalErrorException] Class 'LoginController' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'LoginCon...', '/Users/jrareas/...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'LoginCon...', '/Users/jrareas/...', 18, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'LoginCon...', '/Users/jrareas/...', 18, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:14:10 Error: Fatal Error (1): Call to a member function getLastLogin() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 15]
+2012-11-28 18:14:11 Error: [FatalErrorException] Call to a member function getLastLogin() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 15, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 15, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:14:44 Error: Fatal Error (1): Call to a member function getLastLogin() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 15]
+2012-11-28 18:14:44 Error: [FatalErrorException] Call to a member function getLastLogin() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 15, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 15, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:15:00 Error: Fatal Error (1): Call to undefined method RemoteController::getLastLogin() in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 15]
+2012-11-28 18:15:00 Error: [FatalErrorException] Call to undefined method RemoteController::getLastLogin()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 15, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 15, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:16:19 Error: Fatal Error (1): Call to undefined method RemoteController::getLastLogin() in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 15]
+2012-11-28 18:16:19 Error: [FatalErrorException] Call to undefined method RemoteController::getLastLogin()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 15, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 15, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:17:15 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(3179): Model->setSource('logins')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(18): Model->find('All', Array)
+#3 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(15): LoginController->getLastLogin()
+#4 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(21): LoginController->userValidation()
+#5 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(14): RemoteController->login()
+#6 [internal function]: RemoteController->processRequest('checkLogin')
+#7 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RemoteController), Array)
+#8 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-28 18:19:35 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(3179): Model->setSource('logins')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(18): Model->find('first', Array)
+#3 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(15): LoginController->getLastLogin()
+#4 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(21): LoginController->userValidation()
+#5 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(14): RemoteController->login()
+#6 [internal function]: RemoteController->processRequest('checkLogin')
+#7 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RemoteController), Array)
+#8 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-28 18:19:40 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(3179): Model->setSource('logins')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(18): Model->find('first', Array)
+#3 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(15): LoginController->getLastLogin()
+#4 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(21): LoginController->userValidation()
+#5 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(14): RemoteController->login()
+#6 [internal function]: RemoteController->processRequest('checkLogin')
+#7 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RemoteController), Array)
+#8 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-28 18:19:44 Error: [MissingTableException] Table logins for model Login was not found in datasource default.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(3179): Model->setSource('logins')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(18): Model->find('first', Array)
+#3 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(15): LoginController->getLastLogin()
+#4 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(21): LoginController->userValidation()
+#5 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(14): RemoteController->login()
+#6 [internal function]: RemoteController->processRequest('checkLogin')
+#7 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RemoteController), Array)
+#8 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-28 18:20:20 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 18]
+2012-11-28 18:20:20 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 18, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 18, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:21:01 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 18]
+2012-11-28 18:21:01 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 18, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 18, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:21:34 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 18]
+2012-11-28 18:21:34 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 18, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 18, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:22:50 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 18]
+2012-11-28 18:22:50 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 18, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 18, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:26:19 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(3179): Model->setSource('users')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(18): Model->find('all', Array)
+#3 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(14): LoginController->getLastLogin()
+#4 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(21): LoginController->userValidation()
+#5 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(14): RemoteController->login()
+#6 [internal function]: RemoteController->processRequest('checkLogin')
+#7 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RemoteController), Array)
+#8 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-28 18:38:28 Error: Fatal Error (1): Class 'Security' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 26]
+2012-11-28 18:38:28 Error: [FatalErrorException] Class 'Security' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Security...', '/Users/jrareas/...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Security...', '/Users/jrareas/...', 26, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Security...', '/Users/jrareas/...', 26, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:39:24 Error: Fatal Error (1): Class 'Security' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 26]
+2012-11-28 18:39:24 Error: [FatalErrorException] Class 'Security' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Security...', '/Users/jrareas/...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Security...', '/Users/jrareas/...', 26, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Security...', '/Users/jrareas/...', 26, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:40:35 Error: Fatal Error (1): Class 'Security' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 26]
+2012-11-28 18:40:35 Error: [FatalErrorException] Class 'Security' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Security...', '/Users/jrareas/...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Security...', '/Users/jrareas/...', 26, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Security...', '/Users/jrareas/...', 26, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:43:14 Error: Fatal Error (1): Class 'Security' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 26]
+2012-11-28 18:43:14 Error: [FatalErrorException] Class 'Security' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Security...', '/Users/jrareas/...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Security...', '/Users/jrareas/...', 26, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Security...', '/Users/jrareas/...', 26, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:44:47 Error: Fatal Error (1): Call to a member function load() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 26]
+2012-11-28 18:44:47 Error: [FatalErrorException] Call to a member function load() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 26, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 26, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:46:39 Error: Fatal Error (1): Call to a member function hash() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 26]
+2012-11-28 18:46:39 Error: [FatalErrorException] Call to a member function hash() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 26, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 26, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:48:11 Error: Fatal Error (1): Call to undefined method SecurityComponent::hash() in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 27]
+2012-11-28 18:48:11 Error: [FatalErrorException] Call to undefined method SecurityComponent::hash()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 27, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 27, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:48:38 Error: Fatal Error (1): Class 'Security' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 10]
+2012-11-28 18:48:38 Error: [FatalErrorException] Class 'Security' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Security...', '/Users/jrareas/...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Security...', '/Users/jrareas/...', 10, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Security...', '/Users/jrareas/...', 10, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:51:03 Error: Fatal Error (1): Call to a member function hash() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 26]
+2012-11-28 18:51:03 Error: [FatalErrorException] Call to a member function hash() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 26, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 26, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:54:23 Error: Fatal Error (1): Call to undefined method SecurityComponent::hash() in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 27]
+2012-11-28 18:54:23 Error: [FatalErrorException] Call to undefined method SecurityComponent::hash()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 27, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 27, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 18:54:36 Error: [MissingPluginException] Plugin Cake could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(364): CakePlugin::path('Cake')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(225): App::pluginPath('Cake')
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(542): App::path('Controller/Comp...', 'Cake')
+#3 [internal function]: App::load('Utility.Securit...')
+#4 [internal function]: spl_autoload_call('Utility.Securit...')
+#5 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/ComponentCollection.php(99): class_exists('Utility.Securit...')
+#6 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(26): ComponentCollection->load('Cake.Utility.Se...')
+#7 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(17): LoginController->LoginValido()
+#8 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(21): LoginController->userValidation()
+#9 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(14): RemoteController->login()
+#10 [internal function]: RemoteController->processRequest('checkLogin')
+#11 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RemoteController), Array)
+#12 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#14 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-11-28 18:59:31 Error: [MissingComponentException] Component class Cake/Utility/SecurityComponent could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(27): ComponentCollection->load('Cake/Utility/Se...')
+#1 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(18): LoginController->LoginValido()
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(21): LoginController->userValidation()
+#3 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(14): RemoteController->login()
+#4 [internal function]: RemoteController->processRequest('checkLogin')
+#5 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RemoteController), Array)
+#6 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#8 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-28 19:00:12 Error: Fatal Error (1): Class 'Security' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 28]
+2012-11-28 19:00:12 Error: [FatalErrorException] Class 'Security' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Security...', '/Users/jrareas/...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Security...', '/Users/jrareas/...', 28, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Security...', '/Users/jrareas/...', 28, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 19:02:05 Error: Fatal Error (1): Class 'Security' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 28]
+2012-11-28 19:02:05 Error: [FatalErrorException] Class 'Security' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Security...', '/Users/jrareas/...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Security...', '/Users/jrareas/...', 28, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Security...', '/Users/jrareas/...', 28, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 19:08:14 Error: Fatal Error (1): Class 'Security' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 28]
+2012-11-28 19:08:14 Error: [FatalErrorException] Class 'Security' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Security...', '/Users/jrareas/...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Security...', '/Users/jrareas/...', 28, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Security...', '/Users/jrareas/...', 28, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 19:09:44 Error: Fatal Error (1): Class 'Security' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 27]
+2012-11-28 19:09:44 Error: [FatalErrorException] Class 'Security' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Security...', '/Users/jrareas/...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Security...', '/Users/jrareas/...', 27, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Security...', '/Users/jrareas/...', 27, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 20:56:45 Error: Fatal Error (1): Call to undefined function now() in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 31]
+2012-11-28 20:56:45 Error: [FatalErrorException] Call to undefined function now()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 31, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 31, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:20:23 Error: Fatal Error (1): Call to a member function write() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 24]
+2012-11-29 01:20:23 Error: [FatalErrorException] Call to a member function write() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 24, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 24, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:21:20 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 25]
+2012-11-29 01:21:20 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 25, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 25, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:21:28 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 25]
+2012-11-29 01:21:28 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 25, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 25, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:27:17 Error: Fatal Error (1): Class 'MyAppController' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 2]
+2012-11-29 01:27:17 Error: [FatalErrorException] Class 'MyAppController' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'MyAppCon...', '/Users/jrareas/...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'MyAppCon...', '/Users/jrareas/...', 2, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'MyAppCon...', '/Users/jrareas/...', 2, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:29:35 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 28]
+2012-11-29 01:29:35 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 28, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 28, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:30:26 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 01:31:39 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 37]
+2012-11-29 01:31:39 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 37, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 37, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:32:10 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 37]
+2012-11-29 01:32:10 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 37, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 37, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:32:43 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 38]
+2012-11-29 01:32:43 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 38, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 38, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:33:00 Error: [MissingActionException] Action DashBoardController::login() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-29 01:34:34 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 28]
+2012-11-29 01:34:34 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 28, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 28, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:35:40 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 28]
+2012-11-29 01:35:40 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 28, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 28, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:36:22 Error: Fatal Error (1): Call to a member function write() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 28]
+2012-11-29 01:36:22 Error: [FatalErrorException] Call to a member function write() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 28, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 28, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:37:08 Error: Fatal Error (1): Call to a member function write() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 28]
+2012-11-29 01:37:08 Error: [FatalErrorException] Call to a member function write() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 28, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 28, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:40:04 Error: Fatal Error (1): Call to a member function write() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 28]
+2012-11-29 01:40:04 Error: [FatalErrorException] Call to a member function write() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 28, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 28, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:40:56 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 28]
+2012-11-29 01:40:56 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 28, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 28, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:41:11 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 28]
+2012-11-29 01:41:11 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 28, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 28, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:43:03 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 28]
+2012-11-29 01:43:03 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 28, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 28, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:44:26 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 18:19:49 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 18:35:01 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 18:35:12 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/Login/logoff.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 18:35:32 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/Login/log_off.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 18:43:04 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 18:43:12 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 22]
+2012-11-29 18:43:12 Error: [FatalErrorException] Call to a member function delete() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 22, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 22, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 18:43:30 Error: Fatal Error (1): Call to undefined function delete() in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 22]
+2012-11-29 18:43:30 Error: [FatalErrorException] Call to undefined function delete()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 22, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 22, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 18:44:11 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 22]
+2012-11-29 18:44:11 Error: [FatalErrorException] Call to a member function delete() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 22, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 22, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 18:44:50 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 23]
+2012-11-29 18:44:50 Error: [FatalErrorException] Call to a member function delete() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 23, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 23, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 18:48:06 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 23]
+2012-11-29 18:48:06 Error: [FatalErrorException] Call to a member function delete() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 23, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 23, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 18:49:18 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 18:53:01 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 18:56:56 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 18:57:31 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 19:00:53 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 19:06:52 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 19:42:42 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/index.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 21:15:59 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/View/Elements/header/main.ctp, line 5]
+2012-11-29 21:15:59 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 5, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 5, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 21:16:03 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/View/Elements/header/main.ctp, line 5]
+2012-11-29 21:16:03 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 5, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 5, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 01:49:00 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 40]
+2012-11-30 01:49:00 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 40, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 40, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 01:49:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 40]
+2012-11-30 01:49:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 40, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 40, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 01:49:18 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 40]
+2012-11-30 01:49:18 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 40, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 40, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 01:49:55 Error: Fatal Error (1): Class 'Menu' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 40]
+2012-11-30 01:49:55 Error: [FatalErrorException] Class 'Menu' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Menu' no...', '/Users/jrareas/...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Menu' no...', '/Users/jrareas/...', 40, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Menu' no...', '/Users/jrareas/...', 40, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 01:51:47 Error: [MissingTableException] Table menus for model Menu was not found in datasource default.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(3179): Model->setSource('menus')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php(41): Model->find('first')
+#3 [internal function]: AppController->__construct(Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(242): ReflectionClass->newInstance(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(152): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#6 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-11-30 01:53:12 Error: [MissingTableException] Table menus for model Menu was not found in datasource default.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(3179): Model->setSource('menus')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php(41): Model->find('first')
+#3 [internal function]: AppController->__construct(Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(242): ReflectionClass->newInstance(Object(CakeRequest), Object(CakeResponse))
+#5 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(152): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#6 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-11-30 02:55:41 Error: [MissingControllerException] Controller class AccountController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-30 02:55:46 Error: [MissingControllerException] Controller class AccountController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-30 03:50:24 Error: Fatal Error (1): Call to a member function write() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 42]
+2012-11-30 03:50:24 Error: [FatalErrorException] Call to a member function write() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 42, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 42, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 03:52:02 Error: Fatal Error (1): Call to a member function write() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 42]
+2012-11-30 03:52:02 Error: [FatalErrorException] Call to a member function write() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 42, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 42, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 04:05:42 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 73]
+2012-11-30 04:05:42 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 73, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 73, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 04:10:21 Error: Fatal Error (1): Call to a member function userValidation() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 30]
+2012-11-30 04:10:21 Error: [FatalErrorException] Call to a member function userValidation() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 30, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 30, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 04:11:52 Error: Fatal Error (1): Call to a member function userValidation() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 30]
+2012-11-30 04:11:52 Error: [FatalErrorException] Call to a member function userValidation() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 30, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 30, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 04:18:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 72]
+2012-11-30 04:18:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 72, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 72, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 04:18:39 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 72]
+2012-11-30 04:18:39 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 72, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 72, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 04:33:38 Error: [SocketException] Invalid email: "noreply@financial.system"
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Network/Email/CakeEmail.php(567): CakeEmail->_setEmail('_from', Array, NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Network/Email/CakeEmail.php(353): CakeEmail->_setEmailSingle('_from', Array, NULL, 'From requires o...')
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(87): CakeEmail->from(Array)
+#3 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(82): LoginController->sendMailUser('jrareas@gmail.c...', 'Test', 'About')
+#4 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(77): LoginController->emailNewPassword('jrareas@gmail.c...')
+#5 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(37): LoginController->forgotPassword()
+#6 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(24): RemoteController->forgotPassword()
+#7 [internal function]: RemoteController->processRequest('forgotPassword')
+#8 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RemoteController), Array)
+#9 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-30 04:35:19 Error: [SocketException] Invalid email: "noreply@financial.system"
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Network/Email/CakeEmail.php(567): CakeEmail->_setEmail('_from', Array, NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Network/Email/CakeEmail.php(353): CakeEmail->_setEmailSingle('_from', Array, NULL, 'From requires o...')
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(87): CakeEmail->from(Array)
+#3 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(82): LoginController->sendMailUser('jrareas@gmail.c...', 'Test', 'About')
+#4 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(77): LoginController->emailNewPassword('jrareas@gmail.c...')
+#5 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(37): LoginController->forgotPassword()
+#6 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(24): RemoteController->forgotPassword()
+#7 [internal function]: RemoteController->processRequest('forgotPassword')
+#8 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RemoteController), Array)
+#9 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-30 15:19:15 Error: [MissingControllerException] Controller class WebrootController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-30 16:12:04 Error: Fatal Error (1): Call to a member function layout() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 89]
+2012-11-30 16:12:04 Error: [FatalErrorException] Call to a member function layout() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 89, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 89, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 16:12:06 Error: Fatal Error (1): Call to a member function layout() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 89]
+2012-11-30 16:12:06 Error: [FatalErrorException] Call to a member function layout() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 89, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 89, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 16:14:38 Error: Fatal Error (1): Class 'newpasswordView' not found in [/Users/jrareas/Developer/php/financial.system/lib/Cake/Network/Email/CakeEmail.php, line 1531]
+2012-11-30 16:14:38 Error: [FatalErrorException] Class 'newpasswordView' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'newpassw...', '/Users/jrareas/...', 1531)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'newpassw...', '/Users/jrareas/...', 1531, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'newpassw...', '/Users/jrareas/...', 1531, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 16:37:59 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 87]
+2012-11-30 16:37:59 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 87, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 87, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 16:40:17 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 90]
+2012-11-30 16:40:17 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 90)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 90, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 90, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 16:55:32 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/Login/request_pass_confirmation.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-30 17:13:24 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/Login/request_pass_confirmation.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-30 17:15:31 Error: [MissingLayoutException] Layout file "/Users/jrareas/Developer/php/financial.system/app/View/Layouts/newpassword.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(514): View->_getLayoutFileName('newpassword')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(484): View->renderLayout('', 'newpassword')
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-11-30 17:15:56 Error: [MissingLayoutException] Layout file "/Users/jrareas/Developer/php/financial.system/app/View/Layouts//email/html/newpassword.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(514): View->_getLayoutFileName('/email/html/new...')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(484): View->renderLayout('', '/email/html/new...')
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-11-30 17:29:37 Error: Fatal Error (4): parse error, expecting `T_STRING' or `T_VARIABLE' or `'{'' or `'$'' in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 86]
+2012-11-30 17:29:37 Error: [FatalErrorException] parse error, expecting `T_STRING' or `T_VARIABLE' or `'{'' or `'$''
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jrareas/...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jrareas/...', 86, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jrareas/...', 86, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 17:35:20 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'mCRESZGcLqaM0UXQgTYa'    LIMIT 1' at line 1
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(2630): DboSource->read(Object(AppModel), Array)
+#5 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(83): Model->find('first', Array)
+#6 [internal function]: LoginController->requestPassConfirmation('mCRESZGcLqaM0UX...')
+#7 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LoginController), Array)
+#8 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-30 17:36:12 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'user_id'
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `fi...', Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `fi...')
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(1730): DboSource->create(Object(AppModel), Array, Array)
+#4 /Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php(86): Model->save(Array)
+#5 [internal function]: LoginController->requestPassConfirmation('mCRESZGcLqaM0UX...')
+#6 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LoginController), Array)
+#7 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-30 19:32:10 Error: Fatal Error (1): Call to undefined method DashBoardController::start() in [/Users/jrareas/Developer/php/financial.system/app/Controller/DashBoardController.php, line 12]
+2012-11-30 19:32:10 Error: [FatalErrorException] Call to undefined method DashBoardController::start()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 12, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 12, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 19:32:40 Error: Fatal Error (1): Call to a member function start() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/DashBoardController.php, line 12]
+2012-11-30 19:32:40 Error: [FatalErrorException] Call to a member function start() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 12, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 12, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 19:34:25 Error: Fatal Error (1): Call to a member function start() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/DashBoardController.php, line 12]
+2012-11-30 19:34:25 Error: [FatalErrorException] Call to a member function start() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 12, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 12, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 19:42:36 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/DashBoard/Elements/tablelist.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName('Elements/tablel...')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render('Elements/tablel...', NULL)
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/DashBoardController.php(29): Controller->render('Elements/tablel...')
+#3 [internal function]: DashBoardController->getFiles()
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DashBoardController), Array)
+#5 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DashBoardController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-11-30 19:43:30 Error: [PrivateActionException] Private Action RemoteController::getFiles() is not directly accessible.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-30 19:44:24 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/Remote/get_files.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-30 19:45:11 Error: [PrivateActionException] Private Action RemoteController::forgotPassword() is not directly accessible.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-30 19:46:57 Error: Fatal Error (1): Call to a member function body() on a non-object in [/Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php, line 956]
+2012-11-30 19:46:57 Error: [FatalErrorException] Call to a member function body() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 956)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 956, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 956, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 19:51:03 Error: Fatal Error (1): Call to a member function body() on a non-object in [/Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php, line 956]
+2012-11-30 19:51:03 Error: [FatalErrorException] Call to a member function body() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 956)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 956, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 956, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:00:52 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 12]
+2012-11-30 23:00:52 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 12, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 12, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:00:53 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 12]
+2012-11-30 23:00:53 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 12, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 12, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:00:53 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 12]
+2012-11-30 23:00:53 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 12, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 12, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:00:54 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 12]
+2012-11-30 23:00:54 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 12, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 12, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:00:54 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 12]
+2012-11-30 23:00:54 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 12, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 12, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:00:55 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 12]
+2012-11-30 23:00:55 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 12, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 12, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:00:55 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 12]
+2012-11-30 23:00:55 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 12, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 12, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:13:00 Error: Fatal Error (1): Call to undefined function json_encode_array_cake() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 50]
+2012-11-30 23:13:00 Error: [FatalErrorException] Call to undefined function json_encode_array_cake()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 50, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 50, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:19:59 Error: Fatal Error (1): Call to undefined function json_encode_array_cake() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 57]
+2012-11-30 23:19:59 Error: [FatalErrorException] Call to undefined function json_encode_array_cake()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 57, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 57, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:20:02 Error: Fatal Error (1): Call to undefined function json_encode_array_cake() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 57]
+2012-11-30 23:20:02 Error: [FatalErrorException] Call to undefined function json_encode_array_cake()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 57, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 57, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:20:08 Error: Fatal Error (1): Call to undefined function json_encode_array_cake() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 57]
+2012-11-30 23:20:08 Error: [FatalErrorException] Call to undefined function json_encode_array_cake()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 57, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 57, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:20:13 Error: Fatal Error (1): Call to undefined function json_encode_array_cake() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 57]
+2012-11-30 23:20:13 Error: [FatalErrorException] Call to undefined function json_encode_array_cake()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 57, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 57, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:20:26 Error: Fatal Error (1): Call to undefined function json_encode_array_cake() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 57]
+2012-11-30 23:20:26 Error: [FatalErrorException] Call to undefined function json_encode_array_cake()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 57, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 57, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:31:28 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:31:28 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:31:29 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:31:29 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:31:29 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:31:29 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:31:30 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:31:30 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:31:30 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:31:30 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:31:31 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:31:31 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:31:52 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:31:52 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:32:11 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:32:11 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:32:11 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:32:11 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:32:22 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:32:22 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:32:23 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:32:23 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:32:28 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:32:28 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-30 23:32:29 Error: Fatal Error (64): Can't use function return value in write context in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 66]
+2012-11-30 23:32:29 Error: [FatalErrorException] Can't use function return value in write context
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Can't use funct...', '/Users/jrareas/...', 66)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', '/Users/jrareas/...', 66, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-03 03:25:01 Error: [MissingControllerException] Controller class AccountController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-03 15:38:47 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('UPDATE `financi...', Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/Database/Mysql.php(360): DboSource->execute('UPDATE `financi...')
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(2334): Mysql->update(Object(AppModel), Array, NULL, Array)
+#4 /Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php(19): Model->updateAll(Array, Array)
+#5 /Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php(23): FileController->cleanDefaultFlag()
+#6 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(43): FileController->setDefault('1')
+#7 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(38): RemoteController->setFileDefault('1')
+#8 [internal function]: RemoteController->processRequest('setFileDefault', '1')
+#9 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RemoteController), Array)
+#10 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-12-03 18:22:05 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 17]
+2012-12-03 18:22:05 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 17, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 17, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-03 18:22:30 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 17]
+2012-12-03 18:22:30 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 17, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 17, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-03 18:23:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userd_id' in 'where clause'
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `File`.`...', Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `File`.`...', Array, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `File`.`...', false)
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(2630): DboSource->read(Object(AppModel), Array)
+#5 /Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php(19): Model->find('all', Array)
+#6 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(51): FileController->getFiles()
+#7 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(35): RemoteController->getFiles()
+#8 [internal function]: RemoteController->processRequest('getFiles')
+#9 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RemoteController), Array)
+#10 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-12-03 18:24:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userd_id' in 'where clause'
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `File`.`...', Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `File`.`...', Array, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `File`.`...', false)
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Model/Model.php(2630): DboSource->read(Object(AppModel), Array)
+#5 /Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php(19): Model->find('all', Array)
+#6 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(51): FileController->getFiles()
+#7 /Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php(35): RemoteController->getFiles()
+#8 [internal function]: RemoteController->processRequest('getFiles')
+#9 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RemoteController), Array)
+#10 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RemoteController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-12-03 18:40:54 Error: Fatal Error (1): Call to undefined method RemoteController::getFilesController() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 58]
+2012-12-03 18:40:54 Error: [FatalErrorException] Call to undefined method RemoteController::getFilesController()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 58, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 58, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-03 18:41:08 Error: Fatal Error (1): Call to undefined method RemoteController::getFilesController() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 58]
+2012-12-03 18:41:08 Error: [FatalErrorException] Call to undefined method RemoteController::getFilesController()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 58, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 58, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-03 18:41:33 Error: Fatal Error (1): Call to undefined method RemoteController::getFilesController() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 58]
+2012-12-03 18:41:33 Error: [FatalErrorException] Call to undefined method RemoteController::getFilesController()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 58, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 58, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-03 18:41:59 Error: Fatal Error (1): Call to undefined method RemoteController::getFilesController() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 58]
+2012-12-03 18:41:59 Error: [FatalErrorException] Call to undefined method RemoteController::getFilesController()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 58, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 58, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-03 18:42:33 Error: Fatal Error (1): Call to undefined method RemoteController::getFilesController() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 58]
+2012-12-03 18:42:33 Error: [FatalErrorException] Call to undefined method RemoteController::getFilesController()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 58, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 58, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 23:09:01 Error: [MissingControllerException] Controller class UndefinedController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 23:16:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 23:16:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 23:28:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 23:43:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 00:20:44 Error: [MissingActionException] Action FileController::edit() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 00:21:05 Error: [MissingActionException] Action FileController::edit() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 00:26:01 Error: [MissingActionException] Action FileController::edit() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 00:27:08 Error: [MissingActionException] Action FileController::edit() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 00:54:08 Error: [MissingActionException] Action FileController::edit() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 00:57:44 Error: [MissingActionException] Action FileController::edit() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 01:03:47 Error: [MissingActionException] Action FileController::edit() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 01:17:43 Error: [MissingActionException] Action FileController::edit() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 01:18:01 Error: [MissingActionException] Action FileController::edit() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 16:56:24 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 23:21:24 Error: [MissingActionException] Action FileController::edit() could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-07 02:09:47 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/File/edit.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-07 02:10:04 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/File/edit.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-07 03:03:10 Error: Fatal Error (1): Call to private method DashBoardController::getSession() from context 'AppController' in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 42]
+2012-12-07 03:03:10 Error: [FatalErrorException] Call to private method DashBoardController::getSession() from context 'AppController'
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to private...', '/Users/jrareas/...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to private...', '/Users/jrareas/...', 42, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to private...', '/Users/jrareas/...', 42, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 03:03:32 Error: Fatal Error (1): Class 'CakeSession' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 48]
+2012-12-07 03:03:32 Error: [FatalErrorException] Class 'CakeSession' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'CakeSess...', '/Users/jrareas/...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeSess...', '/Users/jrareas/...', 48, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeSess...', '/Users/jrareas/...', 48, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 03:04:01 Error: Fatal Error (1): Class 'CakeSession' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 49]
+2012-12-07 03:04:01 Error: [FatalErrorException] Class 'CakeSession' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'CakeSess...', '/Users/jrareas/...', 49)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeSess...', '/Users/jrareas/...', 49, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeSess...', '/Users/jrareas/...', 49, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 03:04:40 Error: Fatal Error (1): Class 'CakeSession' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 49]
+2012-12-07 03:04:40 Error: [FatalErrorException] Class 'CakeSession' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'CakeSess...', '/Users/jrareas/...', 49)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeSess...', '/Users/jrareas/...', 49, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeSess...', '/Users/jrareas/...', 49, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 03:05:45 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 44]
+2012-12-07 03:05:45 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 44, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 44, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 03:06:41 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 44]
+2012-12-07 03:06:41 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 44, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 44, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 03:08:14 Error: Fatal Error (1): Class 'Session' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 44]
+2012-12-07 03:08:14 Error: [FatalErrorException] Class 'Session' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Session'...', '/Users/jrareas/...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Session'...', '/Users/jrareas/...', 44, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Session'...', '/Users/jrareas/...', 44, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 03:08:23 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 44]
+2012-12-07 03:08:23 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jrareas/...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jrareas/...', 44, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jrareas/...', 44, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 03:08:49 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 44]
+2012-12-07 03:08:49 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 44, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 44, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 03:09:27 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 45]
+2012-12-07 03:09:27 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 45, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 45, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 18:52:27 Error: [MissingControllerException] Controller class DtController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-10 14:41:49 Error: [MissingControllerException] Controller class DtController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-10 14:45:41 Error: [MissingControllerException] Controller class DtController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-10 15:03:36 Error: [MissingControllerException] Controller class DtController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-13 03:55:00 Error: [MissingControllerException] Controller class Teste.phpController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-20 00:02:36 Error: Fatal Error (1): Call to a member function set() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 33]
+2012-12-20 00:02:36 Error: [FatalErrorException] Call to a member function set() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 33, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 33, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-20 00:44:22 Error: Fatal Error (4): parse error in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 16]
+2012-12-20 00:44:22 Error: [FatalErrorException] parse error
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/jrareas/...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/jrareas/...', 16, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/jrareas/...', 16, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-20 01:10:59 Error: Fatal Error (1): Class 'File' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 45]
+2012-12-20 01:10:59 Error: [FatalErrorException] Class 'File' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'File' no...', '/Users/jrareas/...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'File' no...', '/Users/jrareas/...', 45, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'File' no...', '/Users/jrareas/...', 45, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-20 01:11:25 Error: Fatal Error (1): Class 'FileController' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 45]
+2012-12-20 01:11:25 Error: [FatalErrorException] Class 'FileController' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FileCont...', '/Users/jrareas/...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FileCont...', '/Users/jrareas/...', 45, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FileCont...', '/Users/jrareas/...', 45, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-20 01:13:00 Error: Fatal Error (1): Class 'FileController' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/LoginController.php, line 46]
+2012-12-20 01:13:00 Error: [FatalErrorException] Class 'FileController' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FileCont...', '/Users/jrareas/...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FileCont...', '/Users/jrareas/...', 46, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FileCont...', '/Users/jrareas/...', 46, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-20 01:16:44 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 15]
+2012-12-20 01:16:44 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 15, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 15, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-20 01:16:49 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 15]
+2012-12-20 01:16:49 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 15, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 15, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-20 01:58:30 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/File/edit.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-20 01:59:46 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/File/View/blank_view.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName('View/blank_view')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render('View/blank_view', NULL)
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php(44): Controller->render('View/blank_view')
+#3 [internal function]: FileController->edit('88')
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(FileController), Array)
+#5 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-20 02:00:02 Error: [MissingViewException] View file "/Users/jrareas/Developer/php/financial.system/app/View/View/blank_view.ctp" is missing.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/View/View.php(473): View->_getViewFileName('/View/blank_vie...')
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(956): View->render('/View/blank_vie...', NULL)
+#2 /Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php(44): Controller->render('/View/blank_vie...')
+#3 [internal function]: FileController->edit('88')
+#4 /Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(FileController), Array)
+#5 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-20 02:47:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-20 02:59:48 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-20 03:15:51 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-20 03:15:53 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-20 03:16:09 Error: [MissingControllerException] Controller class FController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-21 00:37:12 Error: Fatal Error (1): Call to undefined function GetClass() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 51]
+2012-12-21 00:37:13 Error: [FatalErrorException] Call to undefined function GetClass()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 51, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 51, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:37:47 Error: Fatal Error (1): Call to undefined function GetClass() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 51]
+2012-12-21 00:37:47 Error: [FatalErrorException] Call to undefined function GetClass()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 51, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 51, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:38:08 Error: Fatal Error (1): Call to undefined function GetClass() in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 51]
+2012-12-21 00:38:08 Error: [FatalErrorException] Call to undefined function GetClass()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 51, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 51, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:38:31 Error: Fatal Error (1): Class 'FileController' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 73]
+2012-12-21 00:38:31 Error: [FatalErrorException] Class 'FileController' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FileCont...', '/Users/jrareas/...', 73)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FileCont...', '/Users/jrareas/...', 73, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FileCont...', '/Users/jrareas/...', 73, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:39:39 Error: Fatal Error (1): Class 'FileController' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 74]
+2012-12-21 00:39:39 Error: [FatalErrorException] Class 'FileController' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FileCont...', '/Users/jrareas/...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FileCont...', '/Users/jrareas/...', 74, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FileCont...', '/Users/jrareas/...', 74, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:39:56 Error: Fatal Error (1): Class 'FileController' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 74]
+2012-12-21 00:39:56 Error: [FatalErrorException] Class 'FileController' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FileCont...', '/Users/jrareas/...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FileCont...', '/Users/jrareas/...', 74, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FileCont...', '/Users/jrareas/...', 74, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:41:32 Error: Fatal Error (1): Class 'File' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 74]
+2012-12-21 00:41:32 Error: [FatalErrorException] Class 'File' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'File' no...', '/Users/jrareas/...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'File' no...', '/Users/jrareas/...', 74, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'File' no...', '/Users/jrareas/...', 74, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:43:09 Error: Fatal Error (1): Class 'File' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 74]
+2012-12-21 00:43:09 Error: [FatalErrorException] Class 'File' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'File' no...', '/Users/jrareas/...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'File' no...', '/Users/jrareas/...', 74, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'File' no...', '/Users/jrareas/...', 74, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:43:34 Error: Fatal Error (1): Class 'File' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 74]
+2012-12-21 00:43:34 Error: [FatalErrorException] Class 'File' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'File' no...', '/Users/jrareas/...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'File' no...', '/Users/jrareas/...', 74, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'File' no...', '/Users/jrareas/...', 74, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:43:46 Error: Fatal Error (1): Class 'File' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 74]
+2012-12-21 00:43:46 Error: [FatalErrorException] Class 'File' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'File' no...', '/Users/jrareas/...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'File' no...', '/Users/jrareas/...', 74, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'File' no...', '/Users/jrareas/...', 74, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:44:57 Error: Fatal Error (1): Class 'File' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 74]
+2012-12-21 00:44:57 Error: [FatalErrorException] Class 'File' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'File' no...', '/Users/jrareas/...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'File' no...', '/Users/jrareas/...', 74, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'File' no...', '/Users/jrareas/...', 74, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:46:50 Error: Fatal Error (1): Class 'File' not found in [/Users/jrareas/Developer/php/financial.system/app/Controller/AppController.php, line 74]
+2012-12-21 00:46:50 Error: [FatalErrorException] Class 'File' not found
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'File' no...', '/Users/jrareas/...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'File' no...', '/Users/jrareas/...', 74, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'File' no...', '/Users/jrareas/...', 74, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:46:50 Error: Fatal Error (1): Call to private method FileController::save() from context 'RemoteController' in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 52]
+2012-12-21 00:46:50 Error: [FatalErrorException] Call to private method FileController::save() from context 'RemoteController'
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to private...', '/Users/jrareas/...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to private...', '/Users/jrareas/...', 52, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to private...', '/Users/jrareas/...', 52, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:47:28 Error: Fatal Error (1): Call to private method FileController::save() from context 'RemoteController' in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 52]
+2012-12-21 00:47:28 Error: [FatalErrorException] Call to private method FileController::save() from context 'RemoteController'
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to private...', '/Users/jrareas/...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to private...', '/Users/jrareas/...', 52, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to private...', '/Users/jrareas/...', 52, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 00:47:52 Error: Fatal Error (1): Call to private method FileController::save() from context 'RemoteController' in [/Users/jrareas/Developer/php/financial.system/app/Controller/RemoteController.php, line 52]
+2012-12-21 00:47:52 Error: [FatalErrorException] Call to private method FileController::save() from context 'RemoteController'
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to private...', '/Users/jrareas/...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to private...', '/Users/jrareas/...', 52, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to private...', '/Users/jrareas/...', 52, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 01:06:54 Error: Fatal Error (1): Call to undefined method View::image() in [/Users/jrareas/Developer/php/financial.system/app/View/Layouts/form.ctp, line 88]
+2012-12-21 01:06:54 Error: [FatalErrorException] Call to undefined method View::image()
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/jrareas/...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/jrareas/...', 88, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/jrareas/...', 88, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 01:07:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-21 01:07:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-21 22:33:24 Error: Fatal Error (1): Call to a member function init() on a non-object in [/Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php, line 634]
+2012-12-21 22:33:24 Error: [FatalErrorException] Call to a member function init() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 634)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 634, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 634, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 22:33:51 Error: Fatal Error (1): Call to a member function body() on a non-object in [/Users/jrareas/Developer/php/financial.system/lib/Cake/Controller/Controller.php, line 956]
+2012-12-21 22:33:51 Error: [FatalErrorException] Call to a member function body() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 956)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 956, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 956, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-21 22:50:29 Error: [PrivateActionException] Private Action FileController::add() is not directly accessible.
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jrareas/Developer/php/financial.system/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jrareas/Developer/php/financial.system/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-24 02:39:51 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 19]
+2012-12-24 02:39:51 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 19, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 19, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-24 02:40:40 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/jrareas/Developer/php/financial.system/app/Controller/FileController.php, line 19]
+2012-12-24 02:40:40 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Users/jrareas/Developer/php/financial.system/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jrareas/...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jrareas/...', 19, Array)
+#2 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jrareas/...', 19, Array)
+#3 /Users/jrareas/Developer/php/financial.system/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -1,0 +1,117 @@
+.panelFunctions{
+	width:100%;
+	background-color:#abbccc;
+	color:#039;
+	position:absolute;
+	bottom:0px;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 10px;
+    height:25px;
+    text-align:right;
+}
+#content{
+	position:relative;
+	color:black;
+}
+
+.panelFunctions img{
+	position:static;
+	top:0px;
+}
+.progressIn{
+	opacity:0.4;
+	width:0%;
+	background-color:red;
+	height:100%;
+	top:0px;
+	position:absolute;
+}
+.progressOut{
+	width:100px;
+	height:15px;
+	border:1px solid #000;
+	left:10px;
+	position:relative;
+	background-color:white;
+	z-index:2;
+	top:4px;
+	font-size:10px;
+	text-align:center;
+	vertical-align:center;
+	display:none;
+}
+.even:hover, .odd:hover{
+	background-color:#E0EBFF;
+	cursor:pointer;
+	color: white;
+}
+.paneltables{
+	border: 1px solid #ccc;
+	width:30em;
+    height:18em;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding:0px;
+    margin:0px;
+    position:absolute;
+}
+.ajaxLoadingTables{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    margin-bottom:auto;
+    top:100px;	
+    display:block;
+}
+.tables{
+	overflow:scroll;
+	width:100%;
+	height:16.5em;
+	top:0px;
+	position:absolute;
+}
+.hor-minimalist-a
+{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	position:static;
+	
+}
+.hor-minimalist-a th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+table tr.default{
+	font-weight:bold;
+}
+.even.selected,.odd.selected{
+	background-color:#33ccff;
+}
+.odd{
+	background-color:#ECF3FF;
+}
+.hor-minimalist-a td
+{
+	color: #669;
+	padding: 9px 8px 0px 8px;
+	-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.hor-minimalist-a tbody tr:hover td
+{
+	
+}
